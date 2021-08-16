@@ -1,37 +1,49 @@
 # ssm学生学籍管理系统
 
-#### 介绍
+## 项目介绍
 SSM项目-学生学籍管理系统。该项目分管理员、老师、学生三种用户角色。每种角色分别对应不同的菜单；
 
-#### 软件架构
-软件架构说明
+以下分别介绍各个角色对应的功能模块：
 
+### 管理员角色：
+- 用户登录和退出
+- 权限控制
+- 系统管理
+- 专业管理
+- 班级管理
+- 学生管理
+- 老师管理
+- 课程管理
+- 开课管理
+- 用户管理
+### 老师角色：
+- 老师管理
+- 成绩管理
+- 学生查询
+### 学生角色：
+- 学生管理
+- 选课管理
+- 成绩查询
 
-#### 安装教程
+## 技术路线
+- 开发工具：IDEA 2020.1
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 技术框架：Spring、SpringMVC、MyBatis
+- Web容器：Tomcat 8.5.7
+- 数据库：MySQL 5.7
+- 前端UI框架：LayUI
 
-#### 使用说明
+- 项目管理：Maven 3.6.3
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 使用说明
+1. 使用IDEA/Eclipse/MyEclipse导入项目，Eclipse/MyEclipse导入时，若为maven项目请选择maven;若为maven项目，导入成功后请执行maven clean;maven install命令，下载所需jar包；
 
-#### 参与贡献
+2. 使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并导入项目的sql文件；
+3. 将项目中application.yml配置文件中的数据库配置改为自己的配置
+4. 配置tomcat，然后运行项目，输入localhost:8080 登录
+5. 管理员账户:admin  密码:123456
+老师账户：zhangping 密码：123456
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+学生账户：0001      密码：123456
 
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 运行截图
